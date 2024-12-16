@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thế Giới Phi Phai - Mua Sắm Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .main-content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 23%;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #555;
+        }
+        .product-card .price {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Cửa Hàng [Thế Giới Phi Phai]</h1>
+        <p>Mua sắm online chất lượng, giá rẻ</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Trang Chủ</a>
+        <a href="#products">Sản Phẩm</a>
+        <a href="#about">Về Chúng Tôi</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section id="products">
+            <h2>Sản Phẩm Nổi Bật</h2>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="img/iphone-11-trang-1-2-750x500.jpg" alt="Sản Phẩm 1">
+                    <h3>Điện Thoại XYZ</h3>
+                    <p>Sản phẩm điện thoại thông minh, camera sắc nét, màn hình OLED sống động.</p>
+                    <p class="price">10,000,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="img/MTXT-HP-14s-dq2644TU-1.jpg" alt="Sản Phẩm 2">
+                    <h3>Laptop ABC</h3>
+                    <p>Laptop với cấu hình mạnh mẽ, màn hình rộng 15 inch, pin lâu dài.</p>
+                    <p class="price">15,500,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="img/Tai-nghe-Bluetooth-Airpods-3-Te-giac-ava.jpg" alt="Sản Phẩm 3">
+                    <h3>Tai Nghe Không Dây</h3>
+                    <p>Chất lượng âm thanh tuyệt vời, kết nối Bluetooth nhanh chóng.</p>
+                    <p class="price">1,200,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="img/images.jpg" alt="Sản Phẩm 4">
+                    <h3>Smartwatch</h3>
+                    <p>Đồng hồ thông minh hỗ trợ đo nhịp tim, theo dõi giấc ngủ và các hoạt động.</p>
+                    <p class="price">2,500,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="img/may-tinh-bang-3-800x450.jpg" alt="Sản Phẩm 5">
+                    <h3>Máy Tính Bảng</h3>
+                    <p>Máy tính bảng với màn hình lớn, độ phân giải cao, dễ dàng sử dụng.</p>
+                    <p class="price">6,000,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="img/Loa-bluetooth-den-led-Z5-5.jpg" alt="Sản Phẩm 6">
+                    <h3>Loa Bluetooth</h3>
+                    <p>Loa không dây tiện lợi, âm thanh mạnh mẽ, thiết kế gọn gàng.</p>
+                    <p class="price">1,000,000 VNĐ</p>
+                    <a href="#" class="cta-button">Mua Ngay</a>
+                </div>
+
+
+        <!-- About Us -->
+        <section id="about" style="margin-top: 40px;">
+            <h2>Tại Sao Chọn [Thế Giới Phi Phai]?</h2>
+            <ul>
+                <li>Sản phẩm chất lượng</li>
+                <li>Giá cả hợp lý</li>
+                <li>Giao hàng nhanh chóng</li>
+                <li>Chăm sóc khách hàng tận tâm</li>
+            </ul>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact" style="margin-top: 40px;">
+            <h2>Liên Hệ với Chúng Tôi</h2>
+            <p>Địa chỉ: [123 Săm Băm]</p>
+            <p>Điện thoại: [0345.567.8910]</p>
+            <p>Email: [TheGioiPhiPhai@Gmail.com]</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Thế Giới Phi Phai]. Tất cả quyền được bảo vệ.</p>
+        <p><a href="#">Chính Sách Bảo Mật</a> | <a href="#">Điều Khoản Dịch Vụ</a></p>
+    </footer>
+
+</body>
+</html>
